@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative; 
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden;
+    font-family: "Work Sans", sans-serif;
+}
+
+header{
+    display: flex;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 110px;
+    background: #ffffff;
+    position: fixed;
+    z-index: 5;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 24px 0px 24px;
+}
+
+.header__titulo{
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.header__logo{
+    width: 330px;
+    height: 85px;
+}
+
+
+/*  
+#banner {
+    margin: auto;
+    width:76%;
+    height: 100px;
+    background-image: url(../imagenes/ban2.png) ;
+    float: right;
+    color:white;
+}
+ 
+#gif{
+    margin: all;
+    width:20%;
+    height: 100px;
+    background: url(../imagenes/computadora.gif)no-repeat right;
+    float: right;
+    margin-right: 50px;
+}
+
+ */
